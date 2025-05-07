@@ -1,0 +1,467 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_3__utilisateur.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_3__utilisateur.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_2__creationvue.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_2__creationvue.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\controllers\\classementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:controllers\\classementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:controllers\\utilisateurscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\models\\vwcoursespilote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:models\\vwcoursespilote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\utilisateurs\\inscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\utilisateurs\\inscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\utilisateurs\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\utilisateurs\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\textfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_0__tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_0__tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\viewmodels\\coursespiloteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:viewmodels\\coursespiloteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\classements\\recherchecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\classements\\recherchecourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\classements\\voituresrapide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\classements\\voituresrapide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\models\\vwvoituresvitessemaxsupmoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:models\\vwvoituresvitessemaxsupmoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\classements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\classements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\bd_wrc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:bd_wrc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_6__performance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_6__performance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_5__traitementdesimages.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_5__traitementdesimages.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_3__utilisateur.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_3__utilisateur.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|c:\\users\\2284873\\documents\\tpfinal_database\\bd_wrc\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{0311BA02-9786-4F42-B7D1-D1C6B9503E90}|BD_WRC.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "V1_3__Utilisateur.sql ",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_3__Utilisateur.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_3__Utilisateur.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_3__Utilisateur.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_3__Utilisateur.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:07:44.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassementsController.cs",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Controllers\\ClassementsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClassementsController.cs",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Controllers\\ClassementsController.cs",
+              "RelativeToolTip": "Controllers\\ClassementsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAMwDgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T18:22:42.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T19:54:16.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Connexion.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Utilisateurs\\Connexion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Utilisateurs\\Connexion.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Utilisateurs\\Connexion.cshtml",
+              "RelativeToolTip": "Views\\Utilisateurs\\Connexion.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T19:53:21.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Inscription.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Utilisateurs\\Inscription.cshtml",
+              "RelativeDocumentMoniker": "Views\\Utilisateurs\\Inscription.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Utilisateurs\\Inscription.cshtml",
+              "RelativeToolTip": "Views\\Utilisateurs\\Inscription.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T19:53:40.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VwCoursesPilote.cs",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Models\\VwCoursesPilote.cs",
+              "RelativeDocumentMoniker": "Models\\VwCoursesPilote.cs",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Models\\VwCoursesPilote.cs",
+              "RelativeToolTip": "Models\\VwCoursesPilote.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:00:01.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RechercheCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Classements\\RechercheCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Classements\\RechercheCourse.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Classements\\RechercheCourse.cshtml",
+              "RelativeToolTip": "Views\\Classements\\RechercheCourse.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:30:05.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "V1_4__ProcedureInteressante.sql ",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:07:28.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InitialCreate.sql ",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\InitialCreate.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\InitialCreate.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\InitialCreate.sql",
+              "RelativeToolTip": "Sql_Scripts\\InitialCreate.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:19:55.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "V1_0__Tables.sql",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_0__Tables.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_0__Tables.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_0__Tables.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_0__Tables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:11:57.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "V1_2__CreationVue.sql",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_2__CreationVue.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_2__CreationVue.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_2__CreationVue.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_2__CreationVue.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:34:30.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Classements\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Classements\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Classements\\Index.cshtml",
+              "RelativeToolTip": "Views\\Classements\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:47:19.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:29:19.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UtilisateursController.cs",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Controllers\\UtilisateursController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UtilisateursController.cs",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Controllers\\UtilisateursController.cs",
+              "RelativeToolTip": "Controllers\\UtilisateursController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwEYAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:50:12.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-07T20:01:37.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Error.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Error.cshtml",
+              "RelativeToolTip": "Views\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T19:10:46.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CoursesPiloteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\ViewModels\\CoursesPiloteViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CoursesPiloteViewModel.cs",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\ViewModels\\CoursesPiloteViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CoursesPiloteViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T18:42:29.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TextFile.txt",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\TextFile.txt",
+              "RelativeDocumentMoniker": "Sql_Scripts\\TextFile.txt",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\TextFile.txt",
+              "RelativeToolTip": "Sql_Scripts\\TextFile.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-05T14:20:11.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "VoituresRapide.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Classements\\VoituresRapide.cshtml",
+              "RelativeDocumentMoniker": "Views\\Classements\\VoituresRapide.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\Classements\\VoituresRapide.cshtml",
+              "RelativeToolTip": "Views\\Classements\\VoituresRapide.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T19:21:42.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BD_WRC.csproj",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\BD_WRC.csproj",
+              "RelativeDocumentMoniker": "BD_WRC.csproj",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\BD_WRC.csproj",
+              "RelativeToolTip": "BD_WRC.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T17:49:15.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VwVoituresVitesseMaxSupMoy.cs",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Models\\VwVoituresVitesseMaxSupMoy.cs",
+              "RelativeDocumentMoniker": "Models\\VwVoituresVitesseMaxSupMoy.cs",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Models\\VwVoituresVitesseMaxSupMoy.cs",
+              "RelativeToolTip": "Models\\VwVoituresVitesseMaxSupMoy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T19:23:21.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:44:00.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T18:44:01.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "V1_1__InsertionDonnees.sql",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:03:46.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "V1_6__Performance.sql",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_6__Performance.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_6__Performance.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_6__Performance.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_6__Performance.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:05:57.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-07T17:29:18.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "V1_5__TraitementDesImages.sql",
+              "DocumentMoniker": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "ToolTip": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T13:05:41.652Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<BD_WRC.Models.Classement>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Temps)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Equipe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pilote)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rallye)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Voiture)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Temps)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipe.EquipeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pilote.PiloteId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rallye.RallyeId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Voiture.VoitureId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ClassementId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ClassementId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ClassementId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

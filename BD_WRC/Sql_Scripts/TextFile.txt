@@ -1,0 +1,15 @@
+﻿
+dotnet tool update evolve.tool -g --prerelease
+
+4) Migration
+
+evolve migrate sqlserver -c "Data Source=.;Initial Catalog=BD_WRC;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=False" -s Clients -s Spectacles --target-version 1.0
+
+
+5) Scaffold
+
+dotnet ef dbcontext scaffold Name=BD_WRC Microsoft.EntityFrameworkCore.SqlServer -o Models --context-dir Data --context BD_WRCContext --data-annotations --force
+,
+,
+,
+,
