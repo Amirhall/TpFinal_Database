@@ -35,7 +35,7 @@ app.UseAuthorization();
 app.UseAuthentication();
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Classements}/{action=RechercheCourse}"
+    pattern: "{controller=Classements}/{action=Index}"
 );
 
 app.MapRazorPages();

@@ -11,7 +11,7 @@ CREATE OR ALTER PROCEDURE Equipes.USP_ConsultationCoursesPilote
 AS
 BEGIN
 	
-	SELECT C.Position, P.Nom AS NomPilote, P.Prenom, V.Marque ,V.Modele, E.Nom as NomEquipe, C.Temps, R.Nom as NomCourse, R.DateDebut,R.DateFin
+	SELECT C.Position, P.Nom AS NomPilote, P.Prenom, V.Marque ,V.Modele, E.Nom as Equipe, C.Temps, R.Nom as Course, R.DateDebut,R.DateFin
 	FROM Rallyes.Classement C
 	INNER JOIN Equipes.Equipe E ON C.EquipeID = E.EquipeID
 	INNER JOIN Equipes.Voiture V ON C.VoitureID = V.VoitureID

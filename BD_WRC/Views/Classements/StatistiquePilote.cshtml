@@ -1,0 +1,47 @@
+﻿@model BD_WRC.ViewModels.StatistiquePiloteViewModel
+
+<h1>Statistiques</h1>
+<hr />
+
+<div class="row">
+    <!-- LEFT SIDE: Stats -->
+    <div class="col-md-6">
+        <dl>
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.Nom)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.Nom)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.Prenom)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.Prenom)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.Nationalite)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.Nationalite)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.NombreParticipations)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.NombreParticipations)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.NombreVictoires)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.NombreVictoires)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.MeilleurePosition)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.MeilleurePosition)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.PositionMoyenne)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.PositionMoyenne)</dd>
+
+            <dt>@Html.DisplayNameFor(model => model.vwPilotesStatistiquesAvancee.NomEquipe)</dt>
+            <dd>@Html.DisplayFor(model => model.vwPilotesStatistiquesAvancee.NomEquipe)</dd>
+        </dl>
+    </div>
+
+    <!-- RIGHT SIDE: Picture -->
+    <div class="col-md-6 text-center">
+        <div class="border bg-light" style="height: 300px; display: flex; align-items: center; justify-content: center;">
+            <!-- Placeholder for future photo -->
+            <span class="text-muted">[Espace réservé pour la photo du pilote]</span>
+        </div>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a asp-action="Index">Retour à la liste</a>
+</div>

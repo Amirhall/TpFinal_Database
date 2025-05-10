@@ -3,27 +3,36 @@ GO
 
 
 --Liste des voitures qui ont une vitesse maximale supérieure à la moyenne de la vitesse maximale de toutes les voitures.
-CREATE VIEW Rallyes.vw_VoituresVitesseMaxSupMoy
-AS
-    SELECT V.Marque, V.Modele, V.Annee, V.Vitesse_maximal AS [Vitesse maximale]
-    FROM Equipes.Voiture V
-    WHERE V.Vitesse_maximal > (
-        SELECT AVG(Vitesse_maximal) 
-        FROM Equipes.Voiture
-    );
+CREATE OR ALTER VIEW Rallyes.vw_PilotesStatistiquesAvancees AS
+SELECT
+    P.PiloteID,
+    P.Nom,
+    P.Prenom,
+    P.Nationalite,
+    COUNT(C.ClassementID) AS NombreParticipations,
+    SUM(CASE WHEN C.Position = 1 THEN 1 ELSE 0 END) AS NombreVictoires,
+    MIN(C.Position) AS MeilleurePosition,
+    AVG(C.Position * 1.0) AS PositionMoyenne,
+    E.Nom AS NomEquipe
+FROM Equipes.Pilote P
+INNER JOIN Rallyes.Classement C ON P.PiloteID = C.PiloteID
+INNER JOIN Equipes.Equipe E ON E.EquipeID = P.EquipeID
+GROUP BY 
+    P.PiloteID, P.Nom, P.Prenom, P.Nationalite, E.Nom;
 GO
 
 CREATE OR ALTER VIEW Rallyes.VwCoursesPilote AS
-SELECT 
+SELECT
+    c.Position,
     p.Nom AS NomPilote,
     p.Prenom,
     v.Marque,
     v.Modele,
     e.Nom AS Equipe,
     c.Temps,
-    r.Nom AS NomRallye,
-    CONVERT(varchar, r.DateDebut, 23) AS DateDebut,
-    CONVERT(varchar, r.DateFin, 23) AS DateFin
+    r.Nom AS Course,
+    r.DateDebut,
+    r.DateFin
 FROM 
     Rallyes.Classement c
     INNER JOIN Equipes.Pilote p ON c.PiloteId = p.PiloteID

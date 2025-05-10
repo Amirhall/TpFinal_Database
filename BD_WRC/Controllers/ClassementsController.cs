@@ -8,6 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using BD_WRC.Data;
 using BD_WRC.Models;
 using Microsoft.Data.SqlClient;
+using System.Security.Claims;
+using System.Security.Principal;
+using BD_WRC.ViewModels;
 
 namespace BD_WRC.Controllers
 {
@@ -23,19 +26,69 @@ namespace BD_WRC.Controllers
         // GET: Classements
         public async Task<IActionResult> Index()
         {
+            ViewData["Courriel"] = "Visiteur";
+            IIdentity? identite = HttpContext.User.Identity;
+            if (identite != null && identite.IsAuthenticated)
+            {
+                string courriel = HttpContext.User.FindFirstValue(ClaimTypes.Name);
+                Utilisateur? utilisateur = await _context.Utilisateurs.FirstOrDefaultAsync(x => x.Courriel == courriel);
+                if (utilisateur != null)
+                {
+                    // Pour dire "Bonjour X" sur l'index
+                    ViewData["Courriel"] = utilisateur.Courriel;
+                }
+            }
             var bD_WRCContext = _context.Classements.Include(c => c.Equipe).Include(c => c.Pilote).Include(c => c.Rallye).Include(c => c.Voiture);
-            return View(await bD_WRCContext.ToListAsync());
+            var pilotes = _context.Pilotes;
+            return View(await pilotes.ToListAsync());
         }
+        public async Task<IActionResult> StatistiquePilote(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            var pilote = await _context.Pilotes
+                .FirstOrDefaultAsync(m => m.PiloteId == id);
+            if (pilote == null)
+            {
+                return NotFound();
+            }
+
+            VwPilotesStatistiquesAvancee vwPilotesStatistiquesAvancee = await _context.VwPilotesStatistiquesAvancees.Where(x => x.PiloteId == id).FirstOrDefaultAsync();
+            string imageString = await _context.PhotoPilotes
+                .Where(a => a.PiloteId == pilote.PiloteId)
+                .Select(a => a.PilotePhotoContent == null ? null : $"data:image/png;base64, {Convert.ToBase64String(a.PilotePhotoContent)}")
+                .FirstOrDefaultAsync();
+
+
+            StatistiquePiloteViewModel statistiquePiloteViewModel = new StatistiquePiloteViewModel()
+
+            {
+                vwPilotesStatistiquesAvancee = vwPilotesStatistiquesAvancee,
+                PhotoContent = imageString
+
+            };
+
+
+            return View(statistiquePiloteViewModel);
+        }
 
 
         public IActionResult RechercheCourse()
         {
-            
+            IIdentity? identite = HttpContext.User.Identity;
+            if (identite != null && identite.IsAuthenticated)
+            {
+                // return value like is IsAuthenticated
+            }
+
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> RechercheCourse(string nom, string prenom, DateTime dateDebut, DateTime dateFin) {
+        public async Task<IActionResult> RechercheCourse(string nom, string prenom, DateTime dateDebut, DateTime dateFin)
+        {
             string query = "EXEC Equipes.usp_ConsultationCoursesPilote @Nom,@Prenom, @DateDebut, @DateFin";
             List<SqlParameter> parameters = new List<SqlParameter>
             {
@@ -46,7 +99,9 @@ namespace BD_WRC.Controllers
             };
             try
             {
-                var test = await _context.VwCoursesPilotes.FromSqlRaw(query, parameters.ToArray()).ToListAsync();
+                     List<VwCoursesPilote> classements = await _context.VwCoursesPilotes.FromSqlRaw(query, parameters.ToArray()).ToListAsync();
+                   return View(classements);
+
             }
             catch (Exception)
             {
@@ -55,166 +110,9 @@ namespace BD_WRC.Controllers
             return View();
         }
 
-        public async Task<IActionResult> VoituresRapide()
-        {
-            IEnumerable<VwVoituresVitesseMaxSupMoy> voitures = await _context.VwVoituresVitesseMaxSupMoys.ToListAsync();
-            return View(voitures);
+
+
+
+
         }
-
-
-
-
-        // GET: Classements/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var classement = await _context.Classements
-                .Include(c => c.Equipe)
-                .Include(c => c.Pilote)
-                .Include(c => c.Rallye)
-                .Include(c => c.Voiture)
-                .FirstOrDefaultAsync(m => m.ClassementId == id);
-            if (classement == null)
-            {
-                return NotFound();
-            }
-
-            return View(classement);
-        }
-
-        // GET: Classements/Create
-        public IActionResult Create()
-        {
-            ViewData["EquipeId"] = new SelectList(_context.Equipes, "EquipeId", "EquipeId");
-            ViewData["PiloteId"] = new SelectList(_context.Pilotes, "PiloteId", "PiloteId");
-            ViewData["RallyeId"] = new SelectList(_context.Rallyes, "RallyeId", "RallyeId");
-            ViewData["VoitureId"] = new SelectList(_context.Voitures, "VoitureId", "VoitureId");
-            return View();
-        }
-
-        // POST: Classements/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ClassementId,Position,Temps,EquipeId,VoitureId,PiloteId,RallyeId")] Classement classement)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(classement);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["EquipeId"] = new SelectList(_context.Equipes, "EquipeId", "EquipeId", classement.EquipeId);
-            ViewData["PiloteId"] = new SelectList(_context.Pilotes, "PiloteId", "PiloteId", classement.PiloteId);
-            ViewData["RallyeId"] = new SelectList(_context.Rallyes, "RallyeId", "RallyeId", classement.RallyeId);
-            ViewData["VoitureId"] = new SelectList(_context.Voitures, "VoitureId", "VoitureId", classement.VoitureId);
-            return View(classement);
-        }
-
-        // GET: Classements/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var classement = await _context.Classements.FindAsync(id);
-            if (classement == null)
-            {
-                return NotFound();
-            }
-            ViewData["EquipeId"] = new SelectList(_context.Equipes, "EquipeId", "EquipeId", classement.EquipeId);
-            ViewData["PiloteId"] = new SelectList(_context.Pilotes, "PiloteId", "PiloteId", classement.PiloteId);
-            ViewData["RallyeId"] = new SelectList(_context.Rallyes, "RallyeId", "RallyeId", classement.RallyeId);
-            ViewData["VoitureId"] = new SelectList(_context.Voitures, "VoitureId", "VoitureId", classement.VoitureId);
-            return View(classement);
-        }
-
-        // POST: Classements/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ClassementId,Position,Temps,EquipeId,VoitureId,PiloteId,RallyeId")] Classement classement)
-        {
-            if (id != classement.ClassementId)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(classement);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ClassementExists(classement.ClassementId))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["EquipeId"] = new SelectList(_context.Equipes, "EquipeId", "EquipeId", classement.EquipeId);
-            ViewData["PiloteId"] = new SelectList(_context.Pilotes, "PiloteId", "PiloteId", classement.PiloteId);
-            ViewData["RallyeId"] = new SelectList(_context.Rallyes, "RallyeId", "RallyeId", classement.RallyeId);
-            ViewData["VoitureId"] = new SelectList(_context.Voitures, "VoitureId", "VoitureId", classement.VoitureId);
-            return View(classement);
-        }
-
-        // GET: Classements/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var classement = await _context.Classements
-                .Include(c => c.Equipe)
-                .Include(c => c.Pilote)
-                .Include(c => c.Rallye)
-                .Include(c => c.Voiture)
-                .FirstOrDefaultAsync(m => m.ClassementId == id);
-            if (classement == null)
-            {
-                return NotFound();
-            }
-
-            return View(classement);
-        }
-
-        // POST: Classements/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var classement = await _context.Classements.FindAsync(id);
-            if (classement != null)
-            {
-                _context.Classements.Remove(classement);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool ClassementExists(int id)
-        {
-            return _context.Classements.Any(e => e.ClassementId == id);
-        }
-    }
 }

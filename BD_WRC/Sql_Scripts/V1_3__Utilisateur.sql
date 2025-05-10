@@ -34,7 +34,7 @@ BEGIN
     SET @MotDePasseHache = HASHBYTES('SHA2_256', @MotDePasseCombine);
 
     -- Insertion dans la table Client
-    INSERT INTO Clients.Client (Courriel, MotDePasseHache, MdpSel)
+    INSERT INTO Utilisateurs.Utilisateur (Courriel, MotDePasseHache, MdpSel)
     VALUES (@Courriel, @MotDePasseHache, @Sel);
 END
 GO

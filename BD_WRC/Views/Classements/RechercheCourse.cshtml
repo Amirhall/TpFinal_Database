@@ -1,10 +1,14 @@
-﻿    <h1>Recherche de Course</h1>
-<form asp-controller="Classements" asp-action="RechercheCourse" method="POST">
+﻿  @model List<BD_WRC.Models.VwCoursesPilote>
+  <h1>Recherche de Course</h1>
+
+@if (User.Identity != null && User.Identity.IsAuthenticated)
+{
+    <form asp-controller="Classements" asp-action="RechercheCourse" method="POST">
         <label for="nom">Nom :</label>
-    <input type="text" id="nom" name="nom" value="Eriksson" required><br><br>
+        <input type="text" id="nom" name="nom" value="Eriksson" required><br><br>
 
         <label for="prenom">Prénom :</label>
-    <input type="text" id="prenom" name="prenom" value="Kenneth" required><br><br>
+        <input type="text" id="prenom" name="prenom" value="Kenneth" required><br><br>
 
         <label for="debut">Date Début de Course :</label>
         <input type="date" id="debut" name="dateDebut" value="1996-03-07" required><br><br>
@@ -12,5 +16,14 @@
         <label for="fin">Date Fin de Course :</label>
         <input type="date" id="fin" name="dateFin" value="1996-10-12" required><br><br>
 
-        <input type="submit" value="Rechercher">
-</form>
+        <input type="submit" class="btn btn-primary" value="Rechercher">
+    </form>
+
+    @if (Model != null && Model.Any())
+    {
+        @Html.Partial("_CoursesPilotesPartial", Model)
+    }
+}
+else{
+    <div>Veuillez vous connecter. </div>
+}

@@ -1,4 +1,6 @@
-﻿namespace BD_WRC.ViewModels
+﻿using BD_WRC.Models;
+
+namespace BD_WRC.ViewModels
 {
     public class CoursesPiloteViewModel
     {

@@ -9,6 +9,8 @@ namespace BD_WRC.Models;
 [Keyless]
 public partial class VwCoursesPilote
 {
+    public int Position { get; set; }
+
     [StringLength(50)]
     public string NomPilote { get; set; } = null!;
 
@@ -28,13 +30,9 @@ public partial class VwCoursesPilote
     public string Temps { get; set; } = null!;
 
     [StringLength(100)]
-    public string NomRallye { get; set; } = null!;
+    public string Course { get; set; } = null!;
 
-    [StringLength(30)]
-    [Unicode(false)]
-    public string? DateDebut { get; set; }
+    public DateOnly DateDebut { get; set; }
 
-    [StringLength(30)]
-    [Unicode(false)]
-    public string? DateFin { get; set; }
+    public DateOnly DateFin { get; set; }
 }

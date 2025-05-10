@@ -35,5 +35,8 @@ public partial class Pilote
     public virtual Equipe? Equipe { get; set; }
 
     [InverseProperty("Pilote")]
+    public virtual ICollection<PhotoPilote> PhotoPilotes { get; set; } = new List<PhotoPilote>();
+
+    [InverseProperty("Pilote")]
     public virtual ICollection<Trophee> Trophees { get; set; } = new List<Trophee>();
 }

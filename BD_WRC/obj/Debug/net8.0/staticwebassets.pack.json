@@ -1,248 +1,392 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BD_WRC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\BD_WRC.bundle.scp.css"
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BD_WRC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BD_WRC.vtos3cugjc.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Angelo-Medeghini.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Angelo-Medeghini.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Carlos Sainz.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Carlos Sainz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Colin_Mcrae.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Colin_Mcrae.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Didiner Auriol.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Didiner Auriol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Ed Ordynski.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Ed Ordynski.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Freddy Loix.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Freddy Loix.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Fujimoto Yoshio.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Fujimoto Yoshio.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Gianfranco_Cunico_-_Rallye_Sanremo_1994.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Gianfranco_Cunico_-_Rallye_Sanremo_1994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Gilberto Pianezzola.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Gilberto Pianezzola.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Hartono Bambang.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Hartono Bambang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Ian-Duncan.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Ian-Duncan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Irvan Gading.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Irvan Gading.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Jasson Gullabo.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Jasson Gullabo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Jonathan Toroitich.png",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Jonathan Toroitich.png"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Kankkunen Juha.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Kankkunen Juha.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Kenjiro Shinozuka.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Kenjiro Shinozuka.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Kenneth-Eriksson.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Kenneth-Eriksson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Konishi Shigeyuki.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Konishi Shigeyuki.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Liatti Piero.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Liatti Piero.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Marcus_Grönholm.webp",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Marcus_Grönholm.webp"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Michael Lieu.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Michael Lieu.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Patrick-Njiru.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Patrick-Njiru.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Possum.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Possum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Richard_Burns.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Richard_Burns.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Rui-Madeira.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Rui-Madeira.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Stig.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Stig.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Thiry Bruno.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Thiry Bruno.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Tommi Makinen.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Tommi Makinen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\Uwe-Nittel.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\Uwe-Nittel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\bernardini_patrick.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\bernardini_patrick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\miyoshi_hideaki.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\miyoshi_hideaki.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\oriol.jpeg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\oriol.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\reza Pribadi.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\reza Pribadi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\thomas Rådström.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\thomas Rådström.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\Photos des pilotes\\uwe Wünsch.jpg",
+      "PackagePath": "staticwebassets\\Photos des pilotes\\uwe Wünsch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\2284873\\Documents\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Amir\\Documents\\GitHub\\TpFinal_Database\\BD_WRC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BD_WRC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BD_WRC.Microsoft.AspNetCore.StaticWebAssets.props",

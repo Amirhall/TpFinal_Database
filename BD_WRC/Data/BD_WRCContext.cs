@@ -24,6 +24,8 @@ public partial class BD_WRCContext : DbContext
 
     public virtual DbSet<Equipe> Equipes { get; set; }
 
+    public virtual DbSet<PhotoPilote> PhotoPilotes { get; set; }
+
     public virtual DbSet<Pilote> Pilotes { get; set; }
 
     public virtual DbSet<Rallye> Rallyes { get; set; }
@@ -36,7 +38,7 @@ public partial class BD_WRCContext : DbContext
 
     public virtual DbSet<VwCoursesPilote> VwCoursesPilotes { get; set; }
 
-    public virtual DbSet<VwVoituresVitesseMaxSupMoy> VwVoituresVitesseMaxSupMoys { get; set; }
+    public virtual DbSet<VwPilotesStatistiquesAvancee> VwPilotesStatistiquesAvancees { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Name=BD_WRC");
@@ -45,7 +47,7 @@ public partial class BD_WRCContext : DbContext
     {
         modelBuilder.Entity<Changelog>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83F94A316FE");
+            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83F574831F0");
 
             entity.Property(e => e.InstalledOn).HasDefaultValueSql("(getdate())");
         });
@@ -87,6 +89,15 @@ public partial class BD_WRCContext : DbContext
                 .HasConstraintName("FK_Equipe_VoitureID");
         });
 
+        modelBuilder.Entity<PhotoPilote>(entity =>
+        {
+            entity.HasKey(e => e.PhotoPiloteId).HasName("PK_PhotoPilote_PhotoPiloteID");
+
+            entity.Property(e => e.Identifiant).HasDefaultValueSql("(newid())");
+
+            entity.HasOne(d => d.Pilote).WithMany(p => p.PhotoPilotes).HasConstraintName("FK_PhotoPilote_PiloteID");
+        });
+
         modelBuilder.Entity<Pilote>(entity =>
         {
             entity.HasKey(e => e.PiloteId).HasName("PK_Pilote_PiloteID");
@@ -123,9 +134,9 @@ public partial class BD_WRCContext : DbContext
             entity.ToView("VwCoursesPilote", "Rallyes");
         });
 
-        modelBuilder.Entity<VwVoituresVitesseMaxSupMoy>(entity =>
+        modelBuilder.Entity<VwPilotesStatistiquesAvancee>(entity =>
         {
-            entity.ToView("vw_VoituresVitesseMaxSupMoy", "Rallyes");
+            entity.ToView("vw_PilotesStatistiquesAvancees", "Rallyes");
         });
 
         OnModelCreatingPartial(modelBuilder);

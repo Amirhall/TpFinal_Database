@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BD_WRC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8204ed9b2c8c9c0bfd60635a01164f82de9906d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BD_WRC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BD_WRC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
