@@ -2,7 +2,7 @@ USE BD_WRC
 GO
 
 
---Liste des voitures qui ont une vitesse maximale supérieure à la moyenne de la vitesse maximale de toutes les voitures.
+--Statistique pilote
 CREATE OR ALTER VIEW Rallyes.vw_PilotesStatistiquesAvancees AS
 SELECT
     P.PiloteID,
@@ -20,7 +20,7 @@ INNER JOIN Equipes.Equipe E ON E.EquipeID = P.EquipeID
 GROUP BY 
     P.PiloteID, P.Nom, P.Prenom, P.Nationalite, E.Nom;
 GO
-
+--
 CREATE OR ALTER VIEW Rallyes.VwCoursesPilote AS
 SELECT
     c.Position,

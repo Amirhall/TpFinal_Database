@@ -59,8 +59,9 @@ namespace BD_WRC.Controllers
             VwPilotesStatistiquesAvancee vwPilotesStatistiquesAvancee = await _context.VwPilotesStatistiquesAvancees.Where(x => x.PiloteId == id).FirstOrDefaultAsync();
             string imageString = await _context.PhotoPilotes
                 .Where(a => a.PiloteId == pilote.PiloteId)
-                .Select(a => a.PilotePhotoContent == null ? null : $"data:image/png;base64, {Convert.ToBase64String(a.PilotePhotoContent)}")
+                .Select(a => a.PilotePhotoContent == null ? null : $"data:image/jpg;base64, {Convert.ToBase64String(a.PilotePhotoContent)}")
                 .FirstOrDefaultAsync();
+            var photo = await _context.PhotoPilotes.Where(a => a.PiloteId == pilote.PiloteId).FirstOrDefaultAsync();
 
 
             StatistiquePiloteViewModel statistiquePiloteViewModel = new StatistiquePiloteViewModel()
@@ -71,8 +72,8 @@ namespace BD_WRC.Controllers
 
             };
 
-
             return View(statistiquePiloteViewModel);
+
         }
 
 

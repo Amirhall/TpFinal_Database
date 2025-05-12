@@ -1,11 +1,3 @@
-USE BD_WRC
-GO
-
-
-CREATE SCHEMA Equipes;
-GO
-CREATE SCHEMA Rallyes;
-GO
 
 
 CREATE TABLE Equipes.Voiture (

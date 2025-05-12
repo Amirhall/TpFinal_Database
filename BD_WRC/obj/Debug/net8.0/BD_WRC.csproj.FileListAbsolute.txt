@@ -969,3 +969,4 @@ C:\Users\Amir\Documents\GitHub\TpFinal_Database\BD_WRC\obj\Debug\net8.0\BD_WRC.p
 C:\Users\Amir\Documents\GitHub\TpFinal_Database\BD_WRC\obj\Debug\net8.0\BD_WRC.genruntimeconfig.cache
 C:\Users\Amir\Documents\GitHub\TpFinal_Database\BD_WRC\obj\Debug\net8.0\ref\BD_WRC.dll
 C:\Users\Amir\Documents\GitHub\TpFinal_Database\BD_WRC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\2284873\Documents\TpFinal_Database\BD_WRC\obj\Debug\net8.0\BD_WRC.sourcelink.json
