@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BD_WRC.Models;
 
-[Table("changelog", Schema = "Clients")]
+[Table("changelog", Schema = "Equipes")]
 public partial class Changelog
 {
     [Key]

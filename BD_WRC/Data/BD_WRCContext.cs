@@ -47,7 +47,7 @@ public partial class BD_WRCContext : DbContext
     {
         modelBuilder.Entity<Changelog>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83F0D3E8D39");
+            entity.HasKey(e => e.Id).HasName("PK__changelo__3213E83FDA5077B9");
 
             entity.Property(e => e.InstalledOn).HasDefaultValueSql("(getdate())");
         });
